@@ -1,0 +1,219 @@
+.App {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding: 0 200px;
+  
+}
+
+@media (min-width: 900px) {
+  .App {
+    width: 1400px;
+   max-width: 100%;
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page-list {
+  padding: 35px 0 0;
+}
+.page-edit {
+  padding: 35px 0 0;
+ 
+}
+ 
+
+@media (min-width: 900px) {
+  .page-edit-form {
+    width: 60%;
+    margin: auto;
+  }
+
+
+}
+.innofab-MuiTableCell-root.innofab-MuiTableCell-root {
+  text-align: left;
+}
+ 
+.innofab-MuiAccordionSummary-root .innofab-MuiAccordionSummary-expandIconWrapper {
+  color: #fff;
+}
+
+.innofab-MuiTableHead-root {
+  background: #292745;
+}
+
+.title {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 35px;
+  text-align: left;
+  font-weight: normal;
+}
+
+.toolsbar {
+  margin-bottom: 55px;
+}
+
+.search {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.innofab-MuiSelect-root .innofab-MuiSelect-icon {
+  color: #fff;
+}
+
+@media (min-width: 900px) {
+  .search {
+    width: 500px;
+    margin-bottom: 0;
+  }
+}
+
+.sort {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 900px) {
+  .sort {
+    width: 220px;
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+}
+
+.saved-sort {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 900px) {
+  .saved-sort {
+    width: 200px;
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+}
+
+.elements-count {
+  text-align: left;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.marques {
+  margin-bottom: 15px;
+}
+
+.innofab-MuiOutlinedInput-notchedOutline.innofab-MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+.innofab-MuiTablePagination-root {
+  width: 100%;
+}
+
+.innofab-MuiTablePagination-root .innofab-MuiTablePagination-toolbar {
+  justify-content: space-between;
+  padding: 0;
+}
+
+.innofab-MuiTablePagination-root .innofab-MuiTablePagination-spacer {
+  display: none;
+}
+
+.innofab-MuiTablePagination-root .innofab-MuiTablePagination-selectLabel {
+  display: none;
+}
+
+.innofab-MuiTablePagination-root .innofab-MuiSelect-root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  vertical-align: top;
+  background: #333058;
+  border: 1px solid #333058;
+  border-radius: 15px;
+  height: 30px;
+  flex-direction: row;
+  min-width: 65px;
+}
+
+.innofab-MuiMenu-list .innofab-MuiTablePagination-menuItem {
+  color: #fff;
+}
+
+.innofab-MuiTablePagination-root .innofab-MuiButtonBase-root.Mui-disabled {
+  color: grey;
+}
+
+.marques-container {
+  margin-bottom: 85px;
+}
+
+.innofab-MuiButton-root.addBrand {
+  color: #fff;
+  background: #423f6e;
+  border-radius: 45px;
+  min-width: 220px;
+  height: 65px;
+  text-transform: none;
+}
+
+.innofab-MuiButton-root.addBrand:hover {
+  background: #3c3957;
+}
+
+.edit-container {
+  margin-bottom: 85px;
+}
+.innofab-MuiCollapse-wrapper .innofab-MuiAccordionDetails-root {
+  padding: 20px 40px 30px;
+}
+
+
+.page-list .innofab-MuiTable-root {
+  background: #21213e;
+}
+
+
+.innofab-MuiList-root{
+  background: #21213e;
+
+}
